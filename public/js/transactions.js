@@ -80,7 +80,7 @@ function getTransactions() {
   const transactions = data.transactions
   let transactionsHtml = ``
 
-  if (transactions.length) {
+  if (transactions != undefined) {
     transactions.forEach((item) => {
       let type = "Entrada";
 
